@@ -1,0 +1,53 @@
+h1 {
+  font-size: 3rem;
+  color: teal;
+}
+h6 , .plus {
+  color: teal;
+  cursor: pointer;
+}
+.item {
+  width: 250px;
+  height: 200px;
+}
+.light {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.light-box {
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+.light-box {
+  font-size: 2rem;
+}
+.light-box .right,
+.left {
+  transition: transform 0.25s linear;
+  cursor: pointer;
+}
+.light-box .right:hover {
+  transform: translate(10px);
+}
+.light-box .left:hover {
+  transform: translate(-10px);
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.next,
+.prev,
+.x {
+  opacity: 50%;
+  transition: opacity 0.3s linear;
+}
+.next:hover,
+.prev:hover,
+.x:hover {
+  opacity: 100%;
+}
